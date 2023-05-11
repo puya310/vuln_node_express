@@ -14,7 +14,6 @@
     "morgan": "~1.9.1",
     "pug": "^2.0.4",
     "sqlite": "^3.0.3",
-    "dustjs-linkedin": "2.6.0",
     "mongoose": "4.2.4",
     "express-robots-txt": "1.0.0"
   }
