@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vuln-node-express
+  namespace: default
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: vuln-node-express
+  template:
+    metadata:
+      labels:
+        app: vuln-node-express
+    spec:
+      containers:
+      - name: vuln-node-express
+        image: prajabian/snyk-vulnnodeexpress:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80

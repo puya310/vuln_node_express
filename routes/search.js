@@ -10,6 +10,7 @@ router.get('/', function (req, res, next) {
 router.post('/', function (req, res, next) {
   const searchText = req.body.searchText;
 
+  // deepcode ignore Sqli: <please specify a reason of ignoring this>
   searchService.searchByName(searchText, function (err, ret) {
     if (err) {
       res.redirect('/search')

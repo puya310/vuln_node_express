@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: vuln-node-express
+  namespace: default
+spec:
+  selector:
+    app: vuln-node-express
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+  type: NodePort
