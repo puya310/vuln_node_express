@@ -11,7 +11,7 @@
     "start": "node app.js",
     "build": "browserify -r jquery > public/js/bundle.js",
     "cleanup": "mongo express-todo --eval 'db.todos.remove({});'",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
   },
   "engines": {
@@ -47,7 +47,8 @@
     "snyk2spdx": "^1.7.1",
     "st": "0.2.4",
     "stream-buffers": "^3.0.1",
-    "tap": "^5.7.0"
+    "tap": "^12.6.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "browserify": "^13.1.1"
