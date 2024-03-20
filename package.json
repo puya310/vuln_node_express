@@ -16,7 +16,7 @@
     "axios": "1.5.1",
     "sqlite": "^3.0.3",
     "mongoose": "4.2.4",
-    "parse-server": "5.5.5",
+    "parse-server": "7.0.0",
     "express-robots-txt": "1.0.0"
 
 
