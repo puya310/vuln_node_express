@@ -47,7 +47,7 @@
     "snyk2spdx": "^1.7.1",
     "st": "0.2.4",
     "stream-buffers": "^3.0.1",
-    "tap": "^5.7.0"
+    "tap": "^12.0.2"
   },
   "devDependencies": {
     "browserify": "^13.1.1"
