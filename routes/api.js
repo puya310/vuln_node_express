@@ -4,6 +4,7 @@ const searchService = require('../service/search');
 
 router.get('/search', function (req, res, next) {
 
+  var password = "my_sensitive_password";
   const searchText = req.query.searchText !== undefined ? req.query.searchText : '';
   console.log(req.query);
   console.log('search text: ' + searchText);

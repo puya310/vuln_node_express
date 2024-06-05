@@ -1,0 +1,3 @@
+const users = [
+  { username: 'user1', password: 'password123' }
+];
