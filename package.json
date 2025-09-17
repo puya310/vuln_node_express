@@ -13,7 +13,7 @@
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "pug": "^2.0.4",
-    "axios": "1.5.1",
+    "axios": "1.6.4",
     "sqlite": "^3.0.3",
     "mongoose": "4.2.4",
     "parse-server": "5.5.5",
